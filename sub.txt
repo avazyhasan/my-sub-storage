@@ -1,4 +1,4 @@
-8vless://%40SEGVPN@85.234.69.163:10100?security=reality&encryption=none&pbk=2zN5MhusgST2q3NBD1gglc6xTaoTPP9Tmjb9k374QCw&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=refersion.com#HO%201%20%40TeleProxyTele
+vless://%40SEGVPN@85.234.69.163:10100?security=reality&encryption=none&pbk=2zN5MhusgST2q3NBD1gglc6xTaoTPP9Tmjb9k374QCw&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=refersion.com#HO%201%20%40TeleProxyTele
 vless://%40natvpn@104.18.32.47:2087?path=%2FWs&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&host=chfree.mchmodiso.shop&fp=chrome&type=ws&sni=chfree.mchmodiso.shop#%F0%9F%87%AE%F0%9F%87%B7%20t.me%2Fvaddress
 vless://01926174-2fc1-499e-8a4b-56b3c0c3c3ed@chatgpt.com:443?path=%2Farmod&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=np.ar-marz.fun&fp=chrome&type=ws&sni=np.ar-marz.fun#%F0%9F%87%AE%F0%9F%87%B7%20t.me%2Fvaddress
 vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@15.188.224.186:22224?encryption=none&security=tls&sni=trojan.burgerip.co.uk&insecure=0&allowInsecure=0&type=ws&path=%2Ftelegram-channel-vlessconfig#%F0%9F%94%A5Join%2BTelegram%3A%40Farah_VPN%F0%9F%9F%A3
