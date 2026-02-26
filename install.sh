@@ -1,19 +1,16 @@
 #!/bin/bash
 
-echo "Cloudflare Worker Auto Deploy (Professional)"
+echo "Cloudflare Worker Auto Deploy (Fully Automatic)"
 echo "------------------------------------------------"
 
-# گرفتن API Token از کاربر
-read -p "Enter your Cloudflare API Token: " CF_API_TOKEN
-
-# Account ID و Worker Name ثابت
+# همه مقادیر ثابت داخل اسکریپت
+CF_API_TOKEN="objS3eTtFd0zSI_myfSwi24to06jw-wTIWbfAcNn"
 CF_ACCOUNT_ID="c8646a80-adb1-4c06-b2d4-9eeba3999ca1"
 WORKER_NAME="my-worker"
 
-echo ""
 echo "Checking Cloudflare API Token and Account ID..."
 
-# تست دسترسی با GET ساده به لیست Workers
+# تست دسترسی
 CHECK=$(curl -s -X GET "https://api.cloudflare.com/client/v4/accounts/$CF_ACCOUNT_ID/workers/scripts" \
   -H "Authorization: Bearer $CF_API_TOKEN")
 
@@ -25,7 +22,6 @@ fi
 
 echo "✅ Token and Account ID look valid."
 
-echo ""
 echo "Downloading worker script..."
 curl -L -o worker.js https://raw.githubusercontent.com/avazyhasan/my-sub-storage/main/worker.js
 
@@ -34,7 +30,6 @@ if [ ! -f worker.js ]; then
   exit 1
 fi
 
-echo ""
 echo "Deploying Worker..."
 
 RESPONSE=$(curl -s -X PUT "https://api.cloudflare.com/client/v4/accounts/$CF_ACCOUNT_ID/workers/scripts/$WORKER_NAME" \
@@ -42,7 +37,6 @@ RESPONSE=$(curl -s -X PUT "https://api.cloudflare.com/client/v4/accounts/$CF_ACC
   -H "Content-Type: application/javascript" \
   --data-binary @worker.js)
 
-# بررسی نتیجه
 if [[ "$RESPONSE" == *'"success":true'* ]]; then
   echo "✅ Worker deployed successfully!"
 else
