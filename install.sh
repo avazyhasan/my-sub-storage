@@ -4,7 +4,7 @@ echo "Cloudflare Worker Auto Deploy (Fully Automatic)"
 echo "------------------------------------------------"
 
 # همه مقادیر ثابت داخل اسکریپت
-CF_API_TOKEN="objS3eTtFd0zSI_myfSwi24to06jw-wTIWbfAcNn"
+CF_API_TOKEN="mlzKmL_R_JNz9MzW8e_PK5xqGLIfrlQYXBxeFi3B"  # توکن جدید
 CF_ACCOUNT_ID="c8646a80-adb1-4c06-b2d4-9eeba3999ca1"
 WORKER_NAME="my-worker"
 
