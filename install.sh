@@ -4,7 +4,7 @@ echo "Cloudflare Worker Auto Deploy (GitHub Version)"
 echo "------------------------------------------------"
 
 # فقط API Token رو میخواد
-read -p "Enter your Cloudflare API Token: " CF_API_TOKEN
+read -p "Enter your Cloudflare API Token:  CF_API_TOKEN="c8646a80-adb1-4c06-b2d4-9eeba3999ca1"
 
 # Account ID و Worker Name ثابت
 CF_ACCOUNT_ID="c8646a80-adb1-4c06-b2d4-9eeba3999ca1"
