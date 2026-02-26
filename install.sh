@@ -1,10 +1,10 @@
 #!/bin/bash
 
-echo "Cloudflare Worker Auto Deploy (Simple)"
-echo "--------------------------------------"
+echo "Cloudflare Worker Auto Deploy (GitHub Version)"
+echo "------------------------------------------------"
 
 # فقط API Token رو میخواد
-read -p "Enter Cloudflare API Token: " CF_API_TOKEN
+read -p "Enter your Cloudflare API Token: " CF_API_TOKEN
 
 # Account ID و Worker Name ثابت
 CF_ACCOUNT_ID="c8646a80-adb1-4c06-b2d4-9eeba3999ca1"
@@ -12,11 +12,10 @@ WORKER_NAME="my-worker"
 
 echo ""
 echo "Downloading worker script..."
-
 curl -L -o worker.js https://raw.githubusercontent.com/avazyhasan/my-sub-storage/main/worker.js
 
 if [ ! -f worker.js ]; then
-  echo "Failed to download worker.js"
+  echo "❌ Failed to download worker.js"
   exit 1
 fi
 
@@ -28,9 +27,14 @@ RESPONSE=$(curl -s -X PUT "https://api.cloudflare.com/client/v4/accounts/$CF_ACC
   -H "Content-Type: application/javascript" \
   --data-binary @worker.js)
 
-echo ""
-echo "Cloudflare Response:"
-echo "$RESPONSE"
+# بررسی موفقیت
+if [[ "$RESPONSE" == *'"success":true'* ]]; then
+  echo "✅ Worker deployed successfully!"
+else
+  echo "❌ Deployment failed!"
+  echo "Cloudflare Response:"
+  echo "$RESPONSE"
+fi
 
 echo ""
-echo "Done."
+echo "Finished."
