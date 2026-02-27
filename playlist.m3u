@@ -1,7 +1,41 @@
-#EXTM3U
-
-#EXTINF:-1,NASA TV
+# ===== INTERNATIONAL NEWS =====
+#EXTINF:-1 group-title="News",NASA TV
 https://ntv1.akamaized.net/hls/live/2037396/NASA-TV/master.m3u8
 
-#EXTINF:-1,Al Jazeera English
+#EXTINF:-1 group-title="News",Al Jazeera English
 https://live-hls-web-aje.getaj.net/AJE/index.m3u8
+
+#EXTINF:-1 group-title="News",France 24 English
+https://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8
+
+#EXTINF:-1 group-title="News",DW English
+https://dwamdstream103.akamaized.net/hls/live/2015525/dwstream103/index.m3u8
+
+#EXTINF:-1 group-title="News",CGTN
+https://live.cgtn.com/1000/prog_index.m3u8
+
+#EXTINF:-1 group-title="News",TRT World
+https://tv-trtworld.live.trt.com.tr/master.m3u8
+
+# ===== ASIA =====
+#EXTINF:-1 group-title="Asia",NHK World Japan
+https://nhkworld-tv.akamaized.net/hls/live/2003458/nhkworld/master.m3u8
+
+#EXTINF:-1 group-title="Asia",KBS World
+https://kbsworld-ott.akamaized.net/hls/live/2002341/kbsworld/master.m3u8
+
+# ===== BUSINESS =====
+#EXTINF:-1 group-title="Business",Bloomberg TV
+https://bloomberg.com/media-manifest/streams/us.m3u8
+
+# ===== DOCUMENTARY =====
+#EXTINF:-1 group-title="Documentary",DW Documentary
+https://dwamdstream102.akamaized.net/hls/live/2015524/dwstream102/index.m3u8
+
+# ===== MUSIC =====
+#EXTINF:-1 group-title="Music",Trace Urban
+https://traceurban-samsungtv.amagi.tv/playlist.m3u8
+
+# ===== SPORTS (FREE) =====
+#EXTINF:-1 group-title="Sports",Red Bull TV
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
