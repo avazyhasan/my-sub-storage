@@ -1,0 +1,64 @@
+#EXTM3U
+
+###################
+# ===== MBC ===== #
+###################
+
+#EXTINF:-1 tvg-id="MBC1" tvg-name="MBC 1" group-title="MBC",MBC 1
+https://YOUR_MBC1_STREAM.m3u8
+
+#EXTINF:-1 tvg-id="MBC2" tvg-name="MBC 2" group-title="MBC",MBC 2
+https://YOUR_MBC2_STREAM.m3u8
+
+#EXTINF:-1 tvg-id="MBC3" tvg-name="MBC 3" group-title="MBC",MBC 3
+https://YOUR_MBC3_STREAM.m3u8
+
+#EXTINF:-1 tvg-id="MBC4" tvg-name="MBC 4" group-title="MBC",MBC 4
+https://YOUR_MBC4_STREAM.m3u8
+
+#EXTINF:-1 tvg-id="MBCAction" tvg-name="MBC Action" group-title="MBC",MBC Action
+https://YOUR_MBCACTION_STREAM.m3u8
+
+#EXTINF:-1 tvg-id="MBCMax" tvg-name="MBC Max" group-title="MBC",MBC Max
+https://YOUR_MBCMAX_STREAM.m3u8
+
+#EXTINF:-1 tvg-id="MBCPersia" tvg-name="MBC Persia" group-title="MBC",MBC Persia
+https://YOUR_MBCPERSIA_STREAM.m3u8
+
+#EXTINF:-1 tvg-id="MBCDrama" tvg-name="MBC Drama" group-title="MBC",MBC Drama
+https://YOUR_MBCDRAMA_STREAM.m3u8
+
+#EXTINF:-1 tvg-id="MBCIraq" tvg-name="MBC Iraq" group-title="MBC",MBC Iraq
+https://YOUR_MBCIRAQ_STREAM.m3u8
+
+#EXTINF:-1 tvg-id="MBCBollywood" tvg-name="MBC Bollywood" group-title="MBC",MBC Bollywood
+https://YOUR_MBCBOLLYWOOD_STREAM.m3u8
+
+
+###################
+# ===== GEM ===== #
+###################
+
+#EXTINF:-1 tvg-id="GemTV" tvg-name="Gem TV" group-title="GEM",Gem TV
+https://YOUR_GEMTV_STREAM.m3u8
+
+#EXTINF:-1 tvg-id="GemSeries" tvg-name="Gem Series" group-title="GEM",Gem Series
+https://YOUR_GEMSERIES_STREAM.m3u8
+
+#EXTINF:-1 tvg-id="GemBollywood" tvg-name="Gem Bollywood" group-title="GEM",Gem Bollywood
+https://YOUR_GEMBOLLYWOOD_STREAM.m3u8
+
+#EXTINF:-1 tvg-id="GemDrama" tvg-name="Gem Drama" group-title="GEM",Gem Drama
+https://YOUR_GEMDRAMA_STREAM.m3u8
+
+#EXTINF:-1 tvg-id="GemDramaPlus" tvg-name="Gem Drama Plus" group-title="GEM",Gem Drama Plus
+https://YOUR_GEMDRAMAPLUS_STREAM.m3u8
+
+#EXTINF:-1 tvg-id="GemRiver" tvg-name="Gem River" group-title="GEM",Gem River
+https://YOUR_GEMRIVER_STREAM.m3u8
+
+#EXTINF:-1 tvg-id="GemRubix" tvg-name="Gem Rubix" group-title="GEM",Gem Rubix
+https://YOUR_GEMRUBIX_STREAM.m3u8
+
+#EXTINF:-1 tvg-id="GemRubioHD" tvg-name="Gem Rubio HD" group-title="GEM",Gem Rubio HD
+https://YOUR_GEMRUBIOHD_STREAM.m3u8
